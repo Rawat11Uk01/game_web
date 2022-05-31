@@ -1,0 +1,798 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif !important;
+  margin: 0px !important;
+}
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+.whitecolortypo {
+  color: #ffffff !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 bold !important;
+  letter-spacing: 0em !important;
+}
+.greycolortypo {
+  color: #b1bfe3 !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 bold !important;
+  letter-spacing: 0em !important;
+}
+.whitecolortypo2 {
+  color: #ffffff !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 bold !important;
+  letter-spacing: 0em !important;
+}
+.whitebutton {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: capitalize !important;
+}
+.lightgreybutton {
+  background: rgba(0, 0, 0, 0.45) !important;
+  opacity: 0.5 !important;
+  color: #b4b4b4 !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 bold !important;
+}
+.greencolorButton {
+  background: linear-gradient(135deg, #7bf967 0%, #689fd1 100%) !important;
+  border-radius: 15px !important;
+  color: #ffffff !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 bold !important;
+}
+
+/* PaddingSize's*/
+.pt5px {
+  padding-top: 5px !important;
+}
+.pt10px {
+  padding-top: 10px !important;
+}
+
+.pl20px {
+  padding-left: 20px !important;
+}
+.pl7px {
+  padding-left: 7px !important;
+}
+.pl10px {
+  padding-left: 10px !important;
+}
+.pr10px {
+  padding-right: 10px !important;
+}
+.pr30px {
+  padding-right: 30px;
+}
+/* MarginSize */
+.mt2 {
+  margin-top: 2% !important;
+}
+.mt3 {
+  margin-top: 3% !important;
+}
+.mt5 {
+  margin-top: 5% !important;
+}
+.mt10 {
+  margin-top: 10% !important;
+}
+.mt19 {
+  margin-top: 19% !important;
+}
+.mt10px {
+  margin-top: 10px !important;
+}
+.mt9px {
+  margin-top: 9px !important;
+}
+.mt14px {
+  margin-top: 14px !important;
+}
+.mt18px {
+  margin-top: 18px !important;
+}
+.mt37px {
+  margin-top: 37px !important;
+}
+.mb5 {
+  margin-bottom: 5% !important;
+}
+.mb2 {
+  margin-bottom: 2% !important;
+}
+.mb3 {
+  margin-bottom: 3% !important;
+}
+.mb6 {
+  margin-bottom: 6% !important;
+}
+.mb10px {
+  margin-bottom: 10px !important;
+}
+/* FontSize */
+.fs18px {
+  font-size: 18px !important;
+}
+.fs20px {
+  font-size: 1rem !important;
+}
+.fs2-3rem {
+  font-size: 2.3rem !important;
+}
+.fs2rem {
+  font-size: 2rem !important;
+}
+.fs2-5rem {
+  font-size: 2.5rem !important;
+}
+.fs1-5rem {
+  font-size: 1.5rem !important;
+}
+.fs1-3rem {
+  font-size: 1.3rem !important;
+}
+.fs1rem {
+  font-size: 1rem !important;
+}
+.fs0-8rem {
+  font-size: 0.8rem !important;
+}
+.appbar {
+  background: radial-gradient(
+    116.88% 115.73% at 2.92% 7.3%,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.15) 0.01%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(255, 255, 255, 0.05) 100%
+  ) !important;
+  backdrop-filter: blur(100px) !important;
+}
+/* Home Component */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Slider Container */
+.sliderImage{
+  height:400px ;
+}
+
+.img-container {
+  max-height: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.game-title {
+  margin-top: 30% !important;
+  z-index: 1;
+  width: 100%;
+  font-weight: 700 !important;
+  position: absolute;
+}
+
+.game-desc {
+  margin-top: 40% !important;
+  z-index: 1 !important;
+  width: 100% !important;
+  font-weight: 500 !important;
+  position: absolute !important;
+  font-size: 1.7vw !important;
+  max-width: 30em !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.game-button-container {
+  margin-top: 48% !important;
+  z-index: 1 !important;
+  width: 100% !important;
+  font-weight: 500 !important;
+  position: absolute !important;
+}
+
+/* Mobile filter  */
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #ffffff !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  color: #ffffff !important;
+}
+.css-10ghrmp-MuiPaper-root-MuiAppBar-root {
+  background-color: #494747 !important;
+}
+.css-1cgx7kx-MuiTabs-scroller {
+  border-right: 1px solid #8b8787 !important;
+}
+
+/* .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  display: none !important;
+  content: "prev";
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "next";
+  width: 173% !important;
+  opacity: 0.9 !important;
+  backdrop-filter: blur(10px) !important;
+  color: white !important;
+  border-radius: 15px !important;
+  height: 54px !important;
+  backdrop-filter: blur(4px) !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction { */
+/* display: none; */
+/* } */
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #ffffff;
+}
+.swiper {
+  width: 100% !important;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+.homepagesearch {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 78% !important;
+}
+.searchbar {
+  margin-left: 0px !important;
+  width: 100% !important;
+  background: radial-gradient(
+    116.88% 115.73% at 2.92% 7.3%,
+    rgba(255, 255, 255, 0.54) 0%,
+    rgba(255, 255, 255, 0.54) 0.01%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+}
+.searchicon {
+  color: #ffffff !important;
+}
+.searchinput {
+  padding: 3px !important;
+  width: 100% !important;
+  padding-left: 44px !important;
+  color: #ffffff !important;
+}
+.seemore {
+  margin-top: 25px !important;
+  color: white;
+}
+.seebuttonstyle {
+  cursor: pointer !important;
+  border-radius: 15px !important;
+  border: none !important;
+  color: white !important;
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.6) -98.98%,
+    rgba(255, 255, 255, 0.36) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.06) 100.64%
+  ) !important;
+  box-shadow: inset 4px -4px 5px rgba(255, 255, 255, 0.25),
+    inset -4px 5px 5px rgba(255, 255, 255, 0.25) !important;
+  padding: 8px 20px !important;
+  backdrop-filter: blur(3px) !important;
+  text-transform: capitalize !important;
+}
+.card {
+  width: 19% !important;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.buynowbutton {
+  padding: 2% 2% !important;
+  margin-left: 10px !important;
+  border-radius: 15px !important;
+  margin-top: -80px !important;
+  justify-content: space-evenly !important;
+  font-size: 0.9vw !important;
+}
+.seemorebutton {
+  width: 17%;
+  margin-top: 3% !important;
+  border-radius: 15px !important;
+  color: white !important;
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.6) -98.98%,
+    rgba(255, 255, 255, 0.36) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.06) 100.64%
+  ) !important;
+  box-shadow: 4px -4px 5px 0px #ffffff40 inset !important;
+  margin-bottom: 4% !important;
+  font-size: 0.8rem !important;
+  text-transform: capitalize !important;
+}
+.dropdownfilter {
+  background: linear-gradient(
+    142.54deg,
+    rgba(255, 255, 255, 0.6) -99.03%,
+    rgba(255, 255, 255, 0.36) -99%,
+    rgba(255, 255, 255, 0) 214.59%,
+    rgba(255, 255, 255, 0.06) 214.59%
+  ) !important;
+  color: #ffffff !important;
+  border-radius: 15px !important;
+  padding: 0 !important;
+  margin-top: 15px !important;
+}
+.dropdownlisttext {
+  background: linear-gradient(
+    142.54deg,
+    rgba(255, 255, 255, 0.6) -99.03%,
+    rgba(255, 255, 255, 0.36) -99%,
+    rgba(255, 255, 255, 0) 214.59%,
+    rgba(255, 255, 255, 0.06) 214.59%
+  ) !important;
+}
+.listbutton {
+  height: 42px !important;
+}
+.listcheckbox .css-518kzi-MuiListItemSecondaryAction-root {
+  right: -4px !important;
+}
+/* .listcheckbox .css-13f5lxt-MuiButtonBase-root-MuiCheckbox-root {
+  border: none !important;
+  color: #ffffff !important;
+} */
+.listcheckbox .MuiCheckbox-root,
+.css-13f5lxt-MuiButtonBase-root-MuiCheckbox-root {
+  border: none !important;
+  color: #ffffff !important;
+}
+/* gameImages */
+.game__images{
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  height: 300px;
+}
+.game__images:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* gameImages */
+
+/* Game Details page componet */
+
+.details-page-div {
+  padding-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: -90px;
+  padding-bottom: 1%;
+  background-attachment: fixed;
+  box-shadow: inset 0px -76px 91px 91px rgba(0, 0, 0, 0.75);
+}
+
+.details-container {
+  margin-top: 120px !important;
+  width: 80% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .details-container {
+    margin-top: 160px !important;
+  }
+}
+
+.details-container-nomargin {
+  width: 80% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.Story {
+  width: 60% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.Rectangle-main {
+  background: radial-gradient(
+      116.88% 115.73% at 2.92% 7.3%,
+      rgba(255, 255, 255, 0.48) 0%,
+      rgba(255, 255, 255, 0.48) 0.01%,
+
+      rgba(255, 255, 255, 0) 100%,
+      rgba(255, 255, 255, 0.16) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 570px !important;
+}
+.thumb {
+  width: 16% !important;
+  /* height: 10% !important; */
+}
+hr {
+  border-top: 1px solid white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lowbutton {
+  opacity: 0.3 !important;
+  border-radius: 15px !important;
+  color: #b4b4b4 !important;
+  padding: 2px 10px !important;
+  margin-left: 9% !important;
+  margin-top: 2% !important;
+}
+.buybutton {
+  box-shadow: -4px 5px 5px 0px #ffffff40 inset !important;
+  box-shadow: 4px -4px 5px 0px #ffffff40 inset !important;
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.6) -98.98%,
+    rgba(255, 255, 255, 0.36) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.06) 100.64%
+  ) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 15px !important;
+  padding: 3% 18% !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  margin-top: 34% !important;
+  margin-bottom: 35px !important;
+}
+.buybutton1 {
+  box-shadow: -4px 5px 5px 0px #ffffff40 inset !important;
+  box-shadow: 4px -4px 5px 0px #ffffff40 inset !important;
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.6) -98.98%,
+    rgba(255, 255, 255, 0.36) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.06) 100.64%
+  ) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 15px !important;
+  padding: 5% 6% !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  margin-top: 4% !important;
+}
+.proceedbutton {
+  box-shadow: -4px 5px 5px 0px #ffffff40 inset !important;
+  box-shadow: 4px -4px 5px 0px #ffffff40 inset !important;
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.6) -98.98%,
+    rgba(255, 255, 255, 0.36) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.06) 100.64%
+  ) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 15px !important;
+  padding: 3% 7% !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  margin-top: 4% !important;
+  margin-bottom: 10px !important;
+}
+
+.tabdetails.Mui-selected {
+  box-shadow: -4px 5px 5px 0px #ffffff40 inset !important;
+  box-shadow: 4px -4px 5px 0px #ffffff40 inset !important;
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.6) -98.98%,
+    rgba(255, 255, 255, 0.36) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.06) 100.64%
+  ) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 15px !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.tabdetails {
+  border-radius: 15px !important;
+  padding: 1% 2% !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  text-transform: capitalize !important;
+  min-height: 33px !important;
+}
+
+/* .tablist .css-1aquho2-MuiTabs-indicator {
+  display: none !important;
+} */
+.selected {
+  /* display: none !important; */
+}
+.MuiTabs-root .MuiTabs-indicator {
+  display: none !important;
+}
+.tabpanel {
+  padding: 2px !important;
+  margin-top: 10px !important;
+}
+
+/* .gallery {
+  margin: 0px !important ;
+    overflow: hidden !important;
+    padding-inline-start: 0px !important;
+} */
+
+.cContainer .carousel .slider-wrapper.axis-horizontal .slider {
+  min-height: 270px;
+} 
+
+.carousel .thumbs-wrapper {
+  margin: 0px !important ;
+  overflow: hidden !important;
+}
+
+.carousel .thumbs-wrapper ul {
+  padding-inline-start: 0px !important;
+}
+
+.carousel .thumb {
+  width: 19% !important;
+}
+
+/* GameDialog Start */
+.LargeDialog {
+  background: linear-gradient(
+    134.96deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+  backdrop-filter: blur(25px) !important;
+  border: 0.1rem solid #ffffff !important;
+  max-width: 975px !important;
+}
+.SmallDialog {
+  background: linear-gradient(
+    134.96deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+  backdrop-filter: blur(1px) !important;
+  border: 0.1rem solid #ffffff !important;
+  max-width: 275px !important;
+}
+.MedieumDialog {
+  background: linear-gradient(
+    134.96deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+  backdrop-filter: blur(1px) !important;
+  max-width: 675px !important;
+}
+.backblureffect .MuiBackdrop-root {
+  background: linear-gradient(
+    134.96deg,
+    rgba(0, 0, 0, 0.4) 100%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+  backdrop-filter: blur(20px) !important;
+}
+
+/* Welcome Dialog  */
+.emailinput {
+  width: 90% !important;
+  color: #ffffff !important;
+  padding-left: 10px !important;
+}
+.searchemail {
+  margin-top: 20px !important;
+  margin-left: 0px !important;
+  width: 90% !important;
+  background: linear-gradient(
+    136.91deg,
+    rgba(255, 255, 255, 0.8) -132.08%,
+    rgba(255, 255, 255, 0) 119.01%
+  ) !important;
+  border-radius: 15px !important;
+}
+.emailsubmitb {
+  box-shadow: -4px 5px 5px 0px #ffffff40 inset !important;
+  box-shadow: 4px -4px 5px 0px #ffffff40 inset !important;
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.6) -98.98%,
+    rgba(255, 255, 255, 0.36) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.06) 100.64%
+  ) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 15px !important;
+  padding: 7% 80% !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.welcomeactionbutton {
+  width: 68% !important;
+  margin-top: 25px !important;
+}
+.welcomeimgtext {
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.5) -98.98%,
+    rgba(0, 0, 0, 0.3) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.05) 100.64%
+  ) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 60% !important;
+  padding-top: 30% !important;
+}
+.joinusb {
+  box-shadow: -4px 5px 5px 0px #ffffff40 inset !important;
+  box-shadow: 4px -4px 5px 0px #ffffff40 inset !important;
+  background: linear-gradient(
+    143.93deg,
+    rgba(255, 255, 255, 0.6) -98.98%,
+    rgba(255, 255, 255, 0.36) -98.96%,
+    rgba(255, 255, 255, 0) 100.64%,
+    rgba(255, 255, 255, 0.06) 100.64%
+  ) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 15px !important;
+  padding: 1.8% 15% !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.welcomebackimg {
+  background-size: cover !important;
+  height: 482px !important;
+}
+/* Payment Component */
+.paymentcircleimg {
+  height: 130px !important;
+  width: 130px !important;
+}
+.paymentsuccessB {
+  border-top: 2px solid #ffffff !important;
+  border-bottom: 2px solid #ffffff !important;
+  margin-top: 15px !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+/* Payment Successfull Dialog  */
+.successpagecontainer {
+  border: 2px solid #ffffff !important;
+  padding: 2px 0px !important;
+  padding-top: 10px !important;
+}
+.suucimg {
+  width: 60% !important;
+  height: 80% !important;
+}
+.statusbutton {
+  margin-top: 15px !important;
+  border-radius: 15px !important;
+  padding: 6px 25px !important;
+  margin-bottom: 10px !important;
+}
+.pricecontainer {
+  border-top: 2px solid #ffffff !important;
+  padding: 2px 0px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+/* image Home Page div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 19.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* footer component  */
+.Footer {
+  display: flex !important;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.Footer {
+  background: radial-gradient(
+    116.88% 115.73% at 2.92% 7.3%,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.15) 0.01%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(255, 255, 255, 0.05) 100%
+  ) !important;
+  backdrop-filter: blur(100px) !important;
+}
+.footertextdiv {
+  width: 20% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-self: center !important;
+  justify-content: center !important;
+}
+.footericondiv {
+  width: 50% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-self: center !important;
+}
+.footericon {
+  background-color: #ffffff !important;
+  border-radius: 15px !important;
+}
+.fbicon {
+  color: #1e90ff !important;
+}
